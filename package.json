@@ -1,0 +1,27 @@
+{
+  "name": "serverless-typescript",
+  "version": "1.0.0",
+  "description": "Serverless webpack example using Typescript",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "serverless deploy -v",
+    "start": "serverless offline start --host=0.0.0.0 --stage local"
+  },
+  "dependencies": {
+    "middy": "^0.33.2",
+    "source-map-support": "^0.5.10"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.17",
+    "@types/node": "^10.12.18",
+    "fork-ts-checker-webpack-plugin": "^3.0.1",
+    "serverless-offline": "^5.12.1",
+    "serverless-webpack": "^5.2.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.4",
+    "webpack": "^4.29.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "license": "MIT"
+}
